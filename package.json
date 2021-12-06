@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ryszardskiepko/faq-accordion-card/issues"
   },
-  "homepage": "https://github.com/ryszardskiepko/faq-accordion-card#readme"
+  "homepage": "https://github.com/ryszardskiepko/faq-accordion-card#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0"
+  }
 }
