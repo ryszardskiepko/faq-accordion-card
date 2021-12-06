@@ -1,0 +1,13 @@
+/*-------------------*/
+/*universal box sizing with inheritance*/
+/*pozwala m.in. na zdefiniowanie w ,,rodzicu" inny "box-sizing" (np. border-box)*/
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+/*-------------------*/
