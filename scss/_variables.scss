@@ -4,8 +4,8 @@ $blueDark: hsl(238, 29%, 16%); /*very dark desaturated blue*/
 $redSoft: hsl(14, 88%, 65%);
 
 /*background gradients*/
-$violetSoft: hsl(273, 75%, 66%);
 $blueSoft: hsl(240, 73%, 65%);
+$violetSoft: hsl(273, 75%, 66%);
 
 /*text*/
 $blueGrayishDark1: hsl(237, 12%, 33%); /*Very dark grayish blue*/
@@ -18,4 +18,13 @@ $blueGrayishLight: hsl(240, 5%, 91%); /*Light grayish blue*/
 /*--------WIDTH---------*/
 $desktop: 1440px;
 $mobile: 375px;
+/*----------------------*/
+
+/*---------FONT---------*/
+/*weights*/
+$fontBold: 700;
+$fontRegular: 400;
+
+/*family*/
+$fontFamily: "Kumbh Sans" sans-serif;
 /*----------------------*/
