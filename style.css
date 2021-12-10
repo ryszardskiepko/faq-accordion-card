@@ -35,4 +35,5 @@ html {
 body {
   font-family: "Kumbh Sans" sans-serif;
   font-size: 12px;
-  color: #4a4b5e; }
+  color: #4a4b5e;
+  background: linear-gradient(#af67e9, #6565e7); }
