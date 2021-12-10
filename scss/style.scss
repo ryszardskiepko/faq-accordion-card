@@ -15,3 +15,9 @@ html {
   box-sizing: inherit;
 }
 /*-------------------*/
+
+body {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  color: $blueGrayishDark1;
+}
