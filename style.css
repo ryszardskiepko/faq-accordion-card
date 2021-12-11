@@ -71,6 +71,18 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT family*/
 /*FONT size*/
 /*----------------------*/
+.questions-section__header {
+  position: relative; }
+  .questions-section__header::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    right: 0;
+    top: 2px;
+    background: url("../../images/icon-arrow-down.svg"); }
+
 /*-------------------*/
 /*universal box sizing with inheritance*/
 /*pozwala m.in. na zdefiniowanie w ,,rodzicu" inny "box-sizing" (np. border-box)*/
