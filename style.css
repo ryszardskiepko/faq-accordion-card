@@ -43,7 +43,11 @@ Lightness as a third value in bracket means opacity.*/
 /*----------------------*/
 .main-faq {
   background: #fff;
-  border-radius: 12px; }
+  border-radius: 12px;
+  margin: 0 auto; }
+  @media (min-width: 375px) {
+    .main-faq {
+      max-width: 1440px; } }
 
 /*-------------------*/
 /*universal box sizing with inheritance*/

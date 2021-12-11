@@ -3,4 +3,8 @@
 .main-faq {
   background: $white;
   border-radius: 12px;
+  margin: 0 auto;
+  @media (min-width: $mobile) {
+    max-width: $desktop;
+  }
 }
