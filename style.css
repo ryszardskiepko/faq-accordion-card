@@ -50,6 +50,27 @@ Lightness as a third value in bracket means opacity.*/
     .main-faq {
       max-width: 70%; } }
 
+/*--------COLORS--------*/
+/*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
+An optional alpha ("hsla()") component represents the color's transparency.
+Lightness as a third value in bracket means opacity.*/
+/*text*/
+/*very dark desaturated blue*/
+/*background gradients*/
+/*text*/
+/*Very dark grayish blue*/
+/*Dark grayish blue*/
+/*dividers*/
+/*Light grayish blue*/
+/*other*/
+/*----------------------*/
+/*--------WIDTH---------*/
+/*----------------------*/
+/*------TYPOGRAPHY------*/
+/*FONT weights*/
+/*FONT family*/
+/*FONT size*/
+/*----------------------*/
 /*-------------------*/
 /*universal box sizing with inheritance*/
 /*pozwala m.in. na zdefiniowanie w ,,rodzicu" inny "box-sizing" (np. border-box)*/
