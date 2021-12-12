@@ -1,6 +1,14 @@
 @import "../_variables.scss";
+
+.questions-answer {
+  color: $blueGrayishDark2;
+  font-weight: $fontRegular;
+}
+
 .questions-section {
   &__header {
+    color: $blueGrayishDark1;
+    font-weight: $fontBold;
     position: relative;
     &:after {
       display: block;

@@ -71,7 +71,13 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT family*/
 /*FONT size*/
 /*----------------------*/
+.questions-answer {
+  color: #787887;
+  font-weight: 400; }
+
 .questions-section__header {
+  color: #4a4b5e;
+  font-weight: 700;
   position: relative; }
   .questions-section__header:after {
     display: block;
