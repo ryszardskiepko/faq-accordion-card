@@ -1,15 +1,13 @@
 @import "../_variables.scss";
 .questions-section {
   &__header {
-      position: relative;
-    &::after {
+    position: relative;
+    &:after {
       display: block;
       position: absolute;
       content: "";
-      width: 15px;
-      height: 15px;
-      right: 0;
-      top: 2px;
+      width: 100%;
+      height: 100%;
       background: url("../../images/icon-arrow-down.svg");
     }
   }
