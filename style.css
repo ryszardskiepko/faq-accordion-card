@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 /*--------COLORS--------*/
 /*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
 An optional alpha ("hsla()") component represents the color's transparency.
@@ -19,13 +20,8 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT family*/
 /*FONT size*/
 /*----------------------*/
-.attribution {
-  margin-top: 100px; }
-  .attribution__link {
-    color: #1d1e35; }
-  .attribution__name {
-    color: #1d1e35; }
-sl() functional notation expresses a given color according to its hue, saturation, and lightness components.
+/*--------COLORS--------*/
+/*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
 An optional alpha ("hsla()") component represents the color's transparency.
 Lightness as a third value in bracket means opacity.*/
 /*text*/
@@ -114,7 +110,9 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT size*/
 /*----------------------*/
 .attribution {
-  margin-top: 100px; }
+  margin-top: 100px;
+  text-align: center;
+  font-size: 11px; }
   .attribution__link {
     color: #1d1e35; }
   .attribution__name {
