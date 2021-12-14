@@ -2,5 +2,12 @@
 
 .attribution {
   margin-top: 100px;
-  color: $blueDark;
+
+  &__link {
+    color: $blueDark;
+  }
+
+  &__name {
+    color: $blueDark;
+  }
 }
