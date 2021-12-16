@@ -6,12 +6,13 @@
 }
 
 .questions-section {
-  &__header {
-    max-width: 70%;
+  &__button {
     color: $blueGrayishDark1;
     font-weight: $fontBold;
     position: relative;
-    &:after {
+    border: none;
+    background: $white;
+    /*&:after {
       display: block;
       position: absolute;
       content: "";
@@ -19,6 +20,6 @@
       height: 100%;
       background-image: url("../../images/icon-arrow-down.svg");
       background-size: 10px 10px;
-    }
+    }*/
   }
 }
