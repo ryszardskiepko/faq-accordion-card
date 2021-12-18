@@ -1,1 +1,9 @@
 @import "../_variables.scss";
+
+.image-container {
+  @media (min-width: $mobile) {
+    width: 966px;
+    height: 945px;
+    background: url("images/bg-pattern-desktop.svg");
+  }
+}
