@@ -139,7 +139,13 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT size*/
 /*----------------------*/
 @media (min-width: 375px) {
-  .image-container {
+  .image-container__box {
+    width: 191px;
+    height: 194px;
+    background: url("images/illustration-box-desktop.svg"); } }
+
+@media (min-width: 375px) {
+  .image-container__pattern {
     width: 966px;
     height: 945px;
     background: url("images/bg-pattern-desktop.svg"); } }
