@@ -16,4 +16,12 @@
       background: url("images/bg-pattern-desktop.svg");
     }
   }
+
+  &__woman {
+    @media (min-width: $mobile) {
+      width: 472px;
+      height: 359px;
+      background: url("images/illustration-woman-online-desktop.svg");
+    }
+  }
 }
