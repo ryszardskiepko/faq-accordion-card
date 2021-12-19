@@ -10,6 +10,9 @@
   }
 
   &__pattern {
+    width: 240px;
+    height: 104px;
+    background: url("images/bg-pattern-mobile.svg");
     @media (min-width: $mobile) {
       width: 966px;
       height: 945px;
