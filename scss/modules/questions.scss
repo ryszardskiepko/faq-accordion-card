@@ -6,6 +6,11 @@
 }
 
 .questions-section {
+  &__arrow {
+    &:active {
+      transform: rotate(180);
+    }
+  }
   &__button {
     color: $blueGrayishDark1;
     font-weight: $fontBold;
