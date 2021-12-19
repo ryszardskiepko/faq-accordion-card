@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 /*--------COLORS--------*/
 /*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
 An optional alpha ("hsla()") component represents the color's transparency.
@@ -19,25 +20,10 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT family*/
 /*FONT size*/
 /*----------------------*/
-.questions-answer {
-  color: #787887;
-  font-weight: 400; }
-
-.questions-section__arrow:active {
-  transform: rotate(180); }
-
-.questions-section__button {
-  color: #4a4b5e;
-  font-weight: 700;
-  position: relative;
-  border: none;
-  background: #fff; }
-
-.questions-section__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
- opacity.*/
+/*--------COLORS--------*/
+/*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
+An optional alpha ("hsla()") component represents the color's transparency.
+Lightness as a third value in bracket means opacity.*/
 /*text*/
 /*very dark desaturated blue*/
 /*background gradients*/
@@ -89,8 +75,13 @@ Lightness as a third value in bracket means opacity.*/
   color: #787887;
   font-weight: 400; }
 
-.questions-section__arrow:active {
-  transform: rotate(180); }
+.questions-section__arrow {
+  width: 10px;
+  height: 7px;
+  margin-right: 20px;
+  /*&:active {
+      transform: rotate(180);
+    }*/ }
 
 .questions-section__button {
   color: #4a4b5e;
