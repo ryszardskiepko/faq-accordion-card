@@ -21,6 +21,9 @@
   }
 
   &__woman {
+    width: 237px;
+    height: 180px;
+    background: url("images/illustration-woman-online-mobile.svg");
     @media (min-width: $mobile) {
       width: 472px;
       height: 359px;

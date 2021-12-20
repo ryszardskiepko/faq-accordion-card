@@ -162,11 +162,15 @@ Lightness as a third value in bracket means opacity.*/
       height: 945px;
       background: url("images/bg-pattern-desktop.svg"); } }
 
-@media (min-width: 375px) {
-  .image-container__woman {
-    width: 472px;
-    height: 359px;
-    background: url("images/illustration-woman-online-desktop.svg"); } }
+.image-container__woman {
+  width: 237px;
+  height: 180px;
+  background: url("images/illustration-woman-online-mobile.svg"); }
+  @media (min-width: 375px) {
+    .image-container__woman {
+      width: 472px;
+      height: 359px;
+      background: url("images/illustration-woman-online-desktop.svg"); } }
 
 /*-------------------*/
 /*universal box sizing with inheritance*/
