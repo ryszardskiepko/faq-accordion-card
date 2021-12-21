@@ -10,9 +10,12 @@
     width: 10px;
     height: 7px;
     margin-right: 20px;
-    transition: transform 0.05s linear;
-    &:active {
-      transform: rotate(180deg);
+    transition: transform 0.2s linear;
+    &:hover {
+      transform: scale(2);
+      &:active {
+        transform: rotate(180deg);
+      }
     }
   }
   &__button {
