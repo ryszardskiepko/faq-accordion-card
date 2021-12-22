@@ -24,6 +24,9 @@
     position: relative;
     border: none;
     background: $white;
+    &:hover {
+      color: $blueGrayishDark1;
+    }
   }
   &__header {
     display: flex;

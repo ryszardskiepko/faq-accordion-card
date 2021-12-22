@@ -88,6 +88,8 @@ Lightness as a third value in bracket means opacity.*/
   position: relative;
   border: none;
   background: #fff; }
+  .questions-section__button:hover {
+    color: #4a4b5e; }
 
 .questions-section__header {
   display: flex;
