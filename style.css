@@ -156,12 +156,16 @@ Lightness as a third value in bracket means opacity.*/
 .image-container__pattern {
   width: 240px;
   height: 104px;
-  background: url("images/bg-pattern-mobile.svg"); }
+  background: url("images/bg-pattern-mobile.svg");
+  top: 0;
+  position: relative; }
   @media (min-width: 375px) {
     .image-container__pattern {
       width: 966px;
       height: 945px;
-      background: url("images/bg-pattern-desktop.svg"); } }
+      background: url("images/bg-pattern-desktop.svg");
+      top: 0;
+      position: relative; } }
 
 .image-container__woman {
   width: 237px;
