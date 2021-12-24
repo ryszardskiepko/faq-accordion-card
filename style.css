@@ -72,16 +72,7 @@ Lightness as a third value in bracket means opacity.*/
   color: #787887;
   font-weight: 400; }
 
-.questions-section__arrow {
-  width: 10px;
-  height: 7px;
-  margin-right: 20px; }
-  .questions-section__arrow:hover {
-    transform: scale(2); }
-    .questions-section__arrow:hover:active {
-      transform: rotate(180deg); }
-
-.questions-section__button {
+.questions-section {
   color: #787887;
   font-weight: 700;
   border: none;
@@ -90,8 +81,16 @@ Lightness as a third value in bracket means opacity.*/
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .questions-section__button:hover {
+  .questions-section:hover {
     color: #4a4b5e; }
+  .questions-section__arrow {
+    width: 10px;
+    height: 7px;
+    margin-right: 20px; }
+    .questions-section__arrow:hover {
+      transform: scale(2); }
+      .questions-section__arrow:hover:active {
+        transform: rotate(180deg); }
 
 /*--------COLORS--------*/
 /*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.

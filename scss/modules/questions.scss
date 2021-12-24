@@ -6,6 +6,17 @@
 }
 
 .questions-section {
+  color: $blueGrayishDark2;
+  font-weight: $fontBold;
+  border: none;
+  background: $white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &:hover {
+    color: $blueGrayishDark1;
+  }
   &__arrow {
     width: 10px;
     height: 7px;
@@ -15,19 +26,6 @@
       &:active {
         transform: rotate(180deg);
       }
-    }
-  }
-  &__button {
-    color: $blueGrayishDark2;
-    font-weight: $fontBold;
-    border: none;
-    background: $white;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    &:hover {
-      color: $blueGrayishDark1;
     }
   }
 }
