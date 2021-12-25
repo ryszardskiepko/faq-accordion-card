@@ -190,4 +190,7 @@ body {
   font-family: Kumbh Sans;
   font-size: 12px;
   color: #1d1e35;
-  background: linear-gradient(#af67e9, #6565e7); }
+  background: linear-gradient(#af67e9, #6565e7);
+  display: grid;
+  justify-content: center;
+  align-items: center; }
