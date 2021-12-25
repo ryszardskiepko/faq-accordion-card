@@ -14,18 +14,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  &:hover {
+  width: 100%;
+  /*&:hover {
     color: $blueGrayishDark1;
-  }
+  }*/
   &__arrow {
     width: 10px;
     height: 7px;
-    margin-right: 20px;
-    &:hover {
+    /*&:hover {
       transform: scale(2);
       &:active {
         transform: rotate(180deg);
       }
-    }
+    }*/
   }
 }
