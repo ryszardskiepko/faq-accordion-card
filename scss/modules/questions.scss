@@ -5,6 +5,10 @@
   font-weight: $fontRegular;
 }
 
+.questions-article {
+  margin: 5px 10px;
+}
+
 .questions-section {
   color: $blueGrayishDark2;
   font-weight: $fontBold;
@@ -28,4 +32,8 @@
       }
     }*/
   }
+}
+
+.title {
+  margin: 5px 10px;
 }
