@@ -19,18 +19,20 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /*&:hover {
+  transition: transform 0.05s linear;
+  &:active {
+    &__icon {
+      transform: scale(1.5);
+      transform: rotate(180deg);
+    }
+  }
+  &:hover {
     color: $blueGrayishDark1;
-  }*/
+  }
+
   &__arrow {
     width: 10px;
     height: 7px;
-    /*&:hover {
-      transform: scale(2);
-      &:active {
-        transform: rotate(180deg);
-      }
-    }*/
   }
 }
 

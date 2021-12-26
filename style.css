@@ -85,18 +85,15 @@ Lightness as a third value in bracket means opacity.*/
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /*&:hover {
-    color: $blueGrayishDark1;
-  }*/ }
+  transition: transform 0.05s linear; }
+  .questions-section:active__icon {
+    transform: scale(1.5);
+    transform: rotate(180deg); }
+  .questions-section:hover {
+    color: #4a4b5e; }
   .questions-section__arrow {
     width: 10px;
-    height: 7px;
-    /*&:hover {
-      transform: scale(2);
-      &:active {
-        transform: rotate(180deg);
-      }
-    }*/ }
+    height: 7px; }
 
 .title {
   margin: 5px 10px; }
