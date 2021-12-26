@@ -3,6 +3,8 @@
 .questions-answer {
   color: $blueGrayishDark2;
   font-weight: $fontRegular;
+  overflow: hidden;
+  max-height: 0;
 }
 
 .questions-article {
