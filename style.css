@@ -68,11 +68,12 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT family*/
 /*FONT size*/
 /*----------------------*/
+details[open] > summary {
+  color: #4a4b5e; }
+
 .questions-answer {
   color: #787887;
-  font-weight: 400;
-  overflow: hidden;
-  max-height: 0; }
+  font-weight: 400; }
 
 .questions-article {
   margin: 5px 15px;
@@ -91,11 +92,7 @@ Lightness as a third value in bracket means opacity.*/
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  transition: transform 0.05s linear; }
-  .questions-section:active__icon {
-    transform: scale(1.5);
-    transform: rotate(180deg); }
+  width: 100%; }
   .questions-section:hover {
     color: #4a4b5e; }
   .questions-section__arrow {
