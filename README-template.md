@@ -96,8 +96,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Example resource 1](<https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl()>) - This article shows some basics about 'hsl()' function.
 - [Example resource 2](https://www.quackit.com/css/color/values/css_hsl_function.cfm) - Here are more explanations about 'hsl()' function.
-- [Example resource 3](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 4](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 3](https://developer.mozilla.org/pl/docs/Web/HTML/Element/details) - This article helped me to use the 'details' and 'summary' tags, so I was able to prevent the use of Javascript to expand the response content when clicking on a question.
+- [Example resource 4](https://codepen.io/codeseries09/pen/poowRqK) - Here is another article showing the solution to the problem described in the point above.
+- [Example resource 5](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 6](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
