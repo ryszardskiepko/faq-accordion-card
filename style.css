@@ -92,9 +92,11 @@ details[open] > summary {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  transition: transform 0.1s linear; }
   .questions-section:hover {
-    color: #4a4b5e; }
+    color: #4a4b5e;
+    transform: scale(1.01); }
   .questions-section__arrow {
     width: 10px;
     height: 7px; }

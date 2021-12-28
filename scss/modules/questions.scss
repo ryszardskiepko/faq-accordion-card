@@ -29,8 +29,10 @@ details[open] > summary {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  transition: transform 0.1s linear;
   &:hover {
     color: $blueGrayishDark1;
+    transform: scale(1.01);
   }
 
   &__arrow {
