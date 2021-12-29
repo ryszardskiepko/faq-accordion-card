@@ -1,6 +1,20 @@
 @import "../_variables.scss";
 
-.image-container {
+.image-background {
+  position: relative;
+
+  &__box {
+    margin: auto;
+    position: absolute;
+    display: none;
+    
+    @media (min-width: $mobile) {
+      display: initial;
+    }
+  }
+}
+
+/*.image-container {
   &__box {
     @media (min-width: $mobile) {
       width: 191px;
@@ -35,3 +49,4 @@
     }
   }
 }
+*/

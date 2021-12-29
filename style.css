@@ -159,36 +159,52 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT family*/
 /*FONT size*/
 /*----------------------*/
-@media (min-width: 375px) {
-  .image-container__box {
-    width: 191px;
-    height: 194px;
-    background: url("images/illustration-box-desktop.svg"); } }
-
-.image-container__pattern {
-  width: 240px;
-  height: 104px;
-  background: url("images/bg-pattern-mobile.svg");
-  top: 0;
+.image-background {
   position: relative; }
-  @media (min-width: 375px) {
-    .image-container__pattern {
+  .image-background__box {
+    margin: auto;
+    position: absolute;
+    display: none; }
+    @media (min-width: 375px) {
+      .image-background__box {
+        display: initial; } }
+
+/*.image-container {
+  &__box {
+    @media (min-width: $mobile) {
+      width: 191px;
+      height: 194px;
+      background: url("images/illustration-box-desktop.svg");
+    }
+  }
+
+  &__pattern {
+    width: 240px;
+    height: 104px;
+    background: url("images/bg-pattern-mobile.svg");
+    top: 0;
+    position: relative;
+    @media (min-width: $mobile) {
       width: 966px;
       height: 945px;
       background: url("images/bg-pattern-desktop.svg");
       top: 0;
-      position: relative; } }
+      position: relative;
+    }
+  }
 
-.image-container__woman {
-  width: 237px;
-  height: 180px;
-  background: url("images/illustration-woman-online-mobile.svg"); }
-  @media (min-width: 375px) {
-    .image-container__woman {
+  &__woman {
+    width: 237px;
+    height: 180px;
+    background: url("images/illustration-woman-online-mobile.svg");
+    @media (min-width: $mobile) {
       width: 472px;
       height: 359px;
-      background: url("images/illustration-woman-online-desktop.svg"); } }
-
+      background: url("images/illustration-woman-online-desktop.svg");
+    }
+  }
+}
+*/
 /*-------------------*/
 /*universal box sizing with inheritance*/
 /*pozwala m.in. na zdefiniowanie w ,,rodzicu" inny "box-sizing" (np. border-box)*/
