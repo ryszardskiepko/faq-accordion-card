@@ -178,6 +178,16 @@ Lightness as a third value in bracket means opacity.*/
   .image-desktop__bg {
     display: initial; } }
 
+.image-mobile__bg {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0; }
+
+@media (min-width: 375px) {
+  .image-mobile {
+    display: none; } }
+
 /*.image-container {
   &__box {
     @media (min-width: $mobile) {

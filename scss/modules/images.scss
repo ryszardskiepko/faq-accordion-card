@@ -28,6 +28,19 @@
   }
 }
 
+.image-mobile__bg {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: $mobile) {
+  .image-mobile {
+    display: none;
+  }
+}
+
 /*.image-container {
   &__box {
     @media (min-width: $mobile) {
