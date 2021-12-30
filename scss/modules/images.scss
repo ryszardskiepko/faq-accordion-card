@@ -7,8 +7,22 @@
     margin: auto;
     position: absolute;
     display: none;
-    
     @media (min-width: $mobile) {
+      display: initial;
+    }
+  }
+}
+
+.image-desktop {
+  overflow: hidden;
+  &__bg {
+    display: none;
+  }
+}
+
+@media (min-width: $mobile) {
+  .image-desktop {
+    &__bg {
       display: initial;
     }
   }
