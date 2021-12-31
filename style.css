@@ -182,6 +182,10 @@ Lightness as a third value in bracket means opacity.*/
   .image-desktop__bg {
     display: none; }
 
+.image-desktop__bg--pattern {
+  margin: auto;
+  position: absolute; }
+
 .image-desktop__bg--woman {
   position: absolute;
   margin: auto; }
