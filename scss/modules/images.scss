@@ -20,6 +20,11 @@
   }
 }
 
+.image-desktop__bg--woman {
+  position: absolute;
+  margin: auto;
+}
+
 @media (min-width: $mobile) {
   .image-desktop {
     &__bg {
