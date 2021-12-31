@@ -5,4 +5,14 @@
   border-radius: 12px;
   margin: 0 auto;
   max-width: 70vw;
+  position: relative;
+}
+
+@media (min-width: $mobile) {
+  .main-faq {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
