@@ -53,7 +53,8 @@ Lightness as a third value in bracket means opacity.*/
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: space-between; } }
+    justify-content: space-between;
+    min-width: 70vw; } }
 
 /*--------COLORS--------*/
 /*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
