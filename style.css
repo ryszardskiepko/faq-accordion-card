@@ -76,8 +76,15 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT family*/
 /*FONT size*/
 /*----------------------*/
+@keyframes rotateArrow {
+  to {
+    transform: rotate(180deg); } }
+
 details[open] > summary {
   color: #4a4b5e; }
+  details[open] > summary .questions-section__arrow {
+    animation: rotateArrow 0.2s ease-out;
+    animation-fill-mode: forwards; }
 
 .questions-answer {
   color: #787887;

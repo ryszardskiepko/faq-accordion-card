@@ -1,7 +1,17 @@
 @import "../_variables.scss";
 
+@keyframes rotateArrow {
+  to {
+    transform: rotate(180deg);
+  }
+}
+
 details[open] > summary {
   color: $blueGrayishDark1;
+  .questions-section__arrow {
+    animation: rotateArrow 0.2s ease-out;
+    animation-fill-mode: forwards;
+  }
 }
 
 .questions-answer {
