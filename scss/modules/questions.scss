@@ -78,4 +78,13 @@ details > summary {
 
 .title {
   margin: 5px 15px;
+  &__header {
+    text-align: center;
+  }
+}
+
+@media (min-width: $mobile) {
+  .title__header {
+    text-align: start;
+  }
 }

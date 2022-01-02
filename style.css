@@ -138,6 +138,12 @@ details > summary .questions-section__arrow {
 
 .title {
   margin: 5px 15px; }
+  .title__header {
+    text-align: center; }
+
+@media (min-width: 375px) {
+  .title__header {
+    text-align: start; } }
 
 /*--------COLORS--------*/
 /*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
