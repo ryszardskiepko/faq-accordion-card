@@ -131,6 +131,10 @@ details > summary .questions-section__arrow {
     width: 10px;
     height: 7px; }
 
+.text-container {
+  margin: 8.75rem 1.5rem 5rem;
+  padding-bottom: 4rem; }
+
 .title {
   margin: 5px 15px; }
 
@@ -216,7 +220,14 @@ Lightness as a third value in bracket means opacity.*/
   position: absolute;
   margin: 0 auto;
   left: 0;
-  right: 0; }
+  right: 0;
+  top: -6.875rem; }
+
+.image-mobile__bg--pattern {
+  top: 0; }
+
+.image-mobile__bg--woman {
+  left: -1.625rem; }
 
 @media (min-width: 375px) {
   .image-mobile {

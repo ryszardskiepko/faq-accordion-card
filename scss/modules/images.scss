@@ -43,6 +43,15 @@
   margin: 0 auto;
   left: 0;
   right: 0;
+  top: -6.875rem;
+}
+
+.image-mobile__bg--pattern {
+  top: 0;
+}
+
+.image-mobile__bg--woman {
+  left: -1.625rem;
 }
 
 @media (min-width: $mobile) {
