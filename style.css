@@ -103,8 +103,8 @@ details > summary .questions-section__arrow {
   font-weight: 400; }
 
 .questions-article {
-  margin: 5px 15px;
-  border-width: 2px;
+  padding: 1rem 0 0.5rem 0;
+  border-width: 1px;
   border-style: solid none none none;
   border-color: #e7e7e9; }
   .questions-article--5 {
@@ -114,12 +114,13 @@ details > summary .questions-section__arrow {
   color: #787887;
   font-weight: 700;
   border: none;
-  background: #fff;
+  background: none;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 0.625rem;
   transition: transform 0.2s linear; }
   .questions-section:hover {
     color: #4a4b5e;

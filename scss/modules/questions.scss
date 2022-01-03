@@ -36,8 +36,8 @@ details > summary {
 }
 
 .questions-article {
-  margin: 5px 15px;
-  border-width: 2px;
+  padding: 1rem 0 0.5rem 0;
+  border-width: 1px;
   border-style: solid none none none;
   border-color: $blueGrayishLight;
   &--5 {
@@ -49,12 +49,13 @@ details > summary {
   color: $blueGrayishDark2;
   font-weight: $fontBold;
   border: none;
-  background: $white;
+  background: none;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 0.625rem;
   transition: transform 0.2s linear;
   &:hover {
     color: $blueGrayishDark1;
