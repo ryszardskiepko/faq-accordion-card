@@ -213,11 +213,16 @@ Lightness as a third value in bracket means opacity.*/
 
 .image-desktop__bg--pattern {
   margin: auto;
-  position: absolute; }
+  position: absolute;
+  margin: auto;
+  margin-top: -34.6875rem;
+  left: -35rem; }
 
 .image-desktop__bg--woman {
   position: absolute;
-  margin: auto; }
+  margin: auto;
+  margin-top: -11.875rem;
+  left: -5rem; }
 
 @media (min-width: 375px) {
   .image-desktop__bg {
