@@ -201,7 +201,10 @@ Lightness as a third value in bracket means opacity.*/
   .image-background__box {
     margin: auto;
     position: absolute;
-    display: none; }
+    display: none;
+    top: 40%;
+    left: -5.625rem;
+    z-index: 9; }
     @media (min-width: 375px) {
       .image-background__box {
         display: initial; } }
@@ -216,13 +219,15 @@ Lightness as a third value in bracket means opacity.*/
   position: absolute;
   margin: auto;
   margin-top: -34.6875rem;
-  left: -35rem; }
+  left: -35rem;
+  z-index: 1; }
 
 .image-desktop__bg--woman {
   position: absolute;
   margin: auto;
   margin-top: -11.875rem;
-  left: -5rem; }
+  left: -5rem;
+  z-index: 3; }
 
 @media (min-width: 375px) {
   .image-desktop__bg {

@@ -7,6 +7,9 @@
     margin: auto;
     position: absolute;
     display: none;
+    top: 40%;
+    left: -5.625rem;
+    z-index: 9;
     @media (min-width: $mobile) {
       display: initial;
     }
@@ -26,6 +29,7 @@
   margin: auto;
   margin-top: -34.6875rem;
   left: -35rem;
+  z-index: 1;
 }
 
 .image-desktop__bg--woman {
@@ -33,6 +37,7 @@
   margin: auto;
   margin-top: -11.875rem;
   left: -5rem;
+  z-index: 3;
 }
 
 @media (min-width: $mobile) {
