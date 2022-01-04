@@ -142,10 +142,9 @@ details > summary .questions-section__arrow {
   margin: 8.75rem 1.5rem 5rem;
   padding-bottom: 4rem; }
 
-.title {
-  margin: 5px 15px; }
-  .title__header {
-    text-align: center; }
+.title__header {
+  text-align: center;
+  margin-bottom: 1.5rem; }
 
 @media (min-width: 375px) {
   .title__header {
