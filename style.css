@@ -100,7 +100,11 @@ details > summary .questions-section__arrow {
 
 .questions-answer {
   color: #787887;
-  font-weight: 400; }
+  font-weight: 400;
+  width: 90%;
+  line-height: 1.125rem;
+  height: auto;
+  margin-bottom: 1rem; }
 
 .questions-article {
   padding: 1rem 0 0.5rem 0;

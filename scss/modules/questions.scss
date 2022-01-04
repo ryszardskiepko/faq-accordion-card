@@ -33,6 +33,10 @@ details > summary {
 .questions-answer {
   color: $blueGrayishDark2;
   font-weight: $fontRegular;
+  width: 90%;
+  line-height: 1.125rem;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .questions-article {
