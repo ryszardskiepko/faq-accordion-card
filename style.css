@@ -147,6 +147,10 @@ details > summary .questions-section__arrow {
   margin-bottom: 1.5rem; }
 
 @media (min-width: 375px) {
+  .text-container {
+    margin: 5rem 2.5rem 7.5rem 0;
+    width: 40%;
+    padding-bottom: 0; }
   .title__header {
     text-align: start; } }
 
