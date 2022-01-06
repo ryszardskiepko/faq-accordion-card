@@ -259,42 +259,6 @@ Lightness as a third value in bracket means opacity.*/
   .image-mobile {
     display: none; } }
 
-/*.image-container {
-  &__box {
-    @media (min-width: $mobile) {
-      width: 191px;
-      height: 194px;
-      background: url("images/illustration-box-desktop.svg");
-    }
-  }
-
-  &__pattern {
-    width: 240px;
-    height: 104px;
-    background: url("images/bg-pattern-mobile.svg");
-    top: 0;
-    position: relative;
-    @media (min-width: $mobile) {
-      width: 966px;
-      height: 945px;
-      background: url("images/bg-pattern-desktop.svg");
-      top: 0;
-      position: relative;
-    }
-  }
-
-  &__woman {
-    width: 237px;
-    height: 180px;
-    background: url("images/illustration-woman-online-mobile.svg");
-    @media (min-width: $mobile) {
-      width: 472px;
-      height: 359px;
-      background: url("images/illustration-woman-online-desktop.svg");
-    }
-  }
-}
-*/
 /*-------------------*/
 /*universal box sizing with inheritance*/
 /*pozwala m.in. na zdefiniowanie w ,,rodzicu" inny "box-sizing" (np. border-box)*/
