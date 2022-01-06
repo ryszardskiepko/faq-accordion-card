@@ -1,7 +1,7 @@
 @import "../_variables.scss";
 
 .attribution {
-  margin-top: 3rem;
+  margin-top: 1rem;
   text-align: center;
   font-size: 11px;
 
@@ -17,5 +17,12 @@
     &:hover {
       font-weight: $fontBold;
     }
+  }
+}
+
+@media (min-width: $mobile) {
+  .attribution {
+    font-size: $fontSize;
+    margin-top: 3rem;
   }
 }

@@ -176,7 +176,7 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT size*/
 /*----------------------*/
 .attribution {
-  margin-top: 3rem;
+  margin-top: 1rem;
   text-align: center;
   font-size: 11px; }
   .attribution__link {
@@ -187,6 +187,11 @@ Lightness as a third value in bracket means opacity.*/
     color: #1d1e35; }
     .attribution__name:hover {
       font-weight: 700; }
+
+@media (min-width: 375px) {
+  .attribution {
+    font-size: 12px;
+    margin-top: 3rem; } }
 
 /*--------COLORS--------*/
 /*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
