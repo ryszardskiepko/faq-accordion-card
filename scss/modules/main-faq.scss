@@ -1,6 +1,6 @@
 @import "../_variables.scss";
 
-.main-faq {
+.card-main {
   background: $white;
   border-radius: 1.5rem;
   margin: 0 auto;
@@ -10,7 +10,7 @@
 }
 
 @media (min-width: $mobile) {
-  .main-faq {
+  .card-main {
     overflow: hidden;
     display: flex;
     align-items: center;

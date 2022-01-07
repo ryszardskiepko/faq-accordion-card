@@ -41,7 +41,7 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT family*/
 /*FONT size*/
 /*----------------------*/
-.main-faq {
+.card-main {
   background: #fff;
   border-radius: 1.5rem;
   margin: 0 auto;
@@ -50,7 +50,7 @@ Lightness as a third value in bracket means opacity.*/
   margin-top: 11rem; }
 
 @media (min-width: 375px) {
-  .main-faq {
+  .card-main {
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -91,15 +91,15 @@ Lightness as a third value in bracket means opacity.*/
 
 details[open] > summary {
   color: #4a4b5e; }
-  details[open] > summary .questions-section__arrow {
+  details[open] > summary .question-summary__arrow {
     animation: rotateArrow 0.2s ease-out;
     animation-fill-mode: forwards; }
 
-details > summary .questions-section__arrow {
+details > summary .question-summary__arrow {
   animation: rotateArrowInverse 0.2s ease-out;
   animation-fill-mode: forwards; }
 
-.questions-answer {
+.question-answer {
   color: #787887;
   font-weight: 400;
   width: 90%;
@@ -107,15 +107,15 @@ details > summary .questions-section__arrow {
   height: auto;
   margin-bottom: 1rem; }
 
-.questions-article {
+.question-details {
   padding: 1rem 0 0.5rem 0;
   border-width: 1px;
   border-style: solid none none none;
   border-color: #e7e7e9; }
-  .questions-article--5 {
+  .question-details--5 {
     border-style: solid none; }
 
-.questions-section {
+.question-summary {
   color: #787887;
   font-weight: 700;
   border: none;
@@ -127,14 +127,14 @@ details > summary .questions-section__arrow {
   width: 100%;
   margin-bottom: 0.625rem;
   transition: transform 0.2s linear; }
-  .questions-section:hover {
+  .question-summary:hover {
     color: #4a4b5e;
     transform: scale(1.01);
     background: #e7e7e9;
     border-width: 4px;
     border-style: solid none none none;
     border-color: #fff; }
-  .questions-section__arrow {
+  .question-summary__arrow {
     width: 10px;
     height: 7px; }
 
@@ -214,9 +214,9 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT family*/
 /*FONT size*/
 /*----------------------*/
-.image-background {
+.card {
   position: relative; }
-  .image-background__box {
+  .card__box {
     margin: auto;
     position: absolute;
     display: none;
@@ -224,7 +224,7 @@ Lightness as a third value in bracket means opacity.*/
     left: -5.625rem;
     z-index: 9; }
     @media (min-width: 375px) {
-      .image-background__box {
+      .card__box {
         display: initial; } }
 
 .image-desktop {

@@ -17,20 +17,21 @@
 
 details[open] > summary {
   color: $blueGrayishDark1;
-  .questions-section__arrow {
+
+  .question-summary__arrow {
     animation: rotateArrow 0.2s ease-out;
     animation-fill-mode: forwards;
   }
 }
 
 details > summary {
-  .questions-section__arrow {
+  .question-summary__arrow {
     animation: rotateArrowInverse 0.2s ease-out;
     animation-fill-mode: forwards;
   }
 }
 
-.questions-answer {
+.question-answer {
   color: $blueGrayishDark2;
   font-weight: $fontRegular;
   width: 90%;
@@ -39,17 +40,18 @@ details > summary {
   margin-bottom: 1rem;
 }
 
-.questions-article {
+.question-details {
   padding: 1rem 0 0.5rem 0;
   border-width: 1px;
   border-style: solid none none none;
   border-color: $blueGrayishLight;
+
   &--5 {
     border-style: solid none;
   }
 }
 
-.questions-section {
+.question-summary {
   color: $blueGrayishDark2;
   font-weight: $fontBold;
   border: none;
