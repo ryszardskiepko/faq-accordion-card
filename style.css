@@ -18,7 +18,7 @@ Lightness as a third value in bracket means opacity.*/
 /*------TYPOGRAPHY------*/
 /*FONT weights*/
 /*FONT family*/
-/*FONT size*/
+/*FONT sizes*/
 /*----------------------*/
 /*--------COLORS--------*/
 /*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
@@ -39,7 +39,7 @@ Lightness as a third value in bracket means opacity.*/
 /*------TYPOGRAPHY------*/
 /*FONT weights*/
 /*FONT family*/
-/*FONT size*/
+/*FONT sizes*/
 /*----------------------*/
 .card-main {
   background: #fff;
@@ -152,7 +152,7 @@ Lightness as a third value in bracket means opacity.*/
 /*------TYPOGRAPHY------*/
 /*FONT weights*/
 /*FONT family*/
-/*FONT size*/
+/*FONT sizes*/
 /*----------------------*/
 .attribution {
   margin-top: 1rem;
@@ -191,7 +191,7 @@ Lightness as a third value in bracket means opacity.*/
 /*------TYPOGRAPHY------*/
 /*FONT weights*/
 /*FONT family*/
-/*FONT size*/
+/*FONT sizes*/
 /*----------------------*/
 .card {
   position: relative; }
