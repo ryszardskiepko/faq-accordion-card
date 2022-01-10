@@ -13,6 +13,11 @@ $violetSoft: hsl(273, 75%, 66%);
 /*text*/
 $blueGrayishDark1: hsl(237, 12%, 33%); /*Very dark grayish blue*/
 $blueGrayishDark2: hsl(240, 6%, 50%); /*Dark grayish blue*/
+$blueGrayishDarkAccessible: hsl(
+  240,
+  6%,
+  35%
+); /*My color due to low answer content contrast accessibility*/
 
 /*dividers*/
 $blueGrayishLight: hsl(240, 5%, 91%); /*Light grayish blue*/

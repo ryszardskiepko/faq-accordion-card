@@ -9,6 +9,7 @@ Lightness as a third value in bracket means opacity.*/
 /*text*/
 /*Very dark grayish blue*/
 /*Dark grayish blue*/
+/*My color due to low answer content contrast accessibility*/
 /*dividers*/
 /*Light grayish blue*/
 /*other*/
@@ -30,6 +31,7 @@ Lightness as a third value in bracket means opacity.*/
 /*text*/
 /*Very dark grayish blue*/
 /*Dark grayish blue*/
+/*My color due to low answer content contrast accessibility*/
 /*dividers*/
 /*Light grayish blue*/
 /*other*/
@@ -79,7 +81,7 @@ details > summary .question-summary__arrow {
   animation-fill-mode: forwards; }
 
 .question-answer {
-  color: #787887;
+  color: #54545f;
   font-weight: 400;
   width: 90%;
   line-height: 1.125rem;
@@ -143,6 +145,7 @@ Lightness as a third value in bracket means opacity.*/
 /*text*/
 /*Very dark grayish blue*/
 /*Dark grayish blue*/
+/*My color due to low answer content contrast accessibility*/
 /*dividers*/
 /*Light grayish blue*/
 /*other*/
@@ -182,6 +185,7 @@ Lightness as a third value in bracket means opacity.*/
 /*text*/
 /*Very dark grayish blue*/
 /*Dark grayish blue*/
+/*My color due to low answer content contrast accessibility*/
 /*dividers*/
 /*Light grayish blue*/
 /*other*/
