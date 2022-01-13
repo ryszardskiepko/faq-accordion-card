@@ -55,8 +55,37 @@ To see how you can add code snippets, see below:
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/*The snippet below helped me to avoid using JS to rotate arrow after clicking on it.*/
+
+@keyframes rotateArrow {
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes rotateArrowInverse {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+details[open] > summary {
+  color: $blueGrayishDark1;
+
+  .question-summary__arrow {
+    animation: rotateArrow 0.2s ease-out;
+    animation-fill-mode: forwards;
+  }
+}
+
+details > summary {
+  .question-summary__arrow {
+    animation: rotateArrowInverse 0.2s ease-out;
+    animation-fill-mode: forwards;
+  }
 }
 ```
 
