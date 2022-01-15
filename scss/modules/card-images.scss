@@ -16,7 +16,7 @@
   }
 }
 
-.card-main {
+.card__main {
   background: $white;
   border-radius: 1.5rem;
   margin: 0 auto;
@@ -26,7 +26,7 @@
 }
 
 @media (min-width: $mobile) {
-  .card-main {
+  .card__main {
     overflow: hidden;
     display: flex;
     align-items: center;
