@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 /*--------COLORS--------*/
 /*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
 An optional alpha ("hsla()") component represents the color's transparency.
@@ -20,68 +21,28 @@ Lightness as a third value in bracket means opacity.*/
 /*FONT family*/
 /*FONT sizes*/
 /*----------------------*/
-.card {
-  position: relative; }
-  .card__box {
-    margin: auto;
-    position: absolute;
-    display: none;
-    top: 40%;
-    left: -5.625rem;
-    z-index: 9; }
-    @media (min-width: 375px) {
-      .card__box {
-        display: initial; } }
-
-.image-desktop {
-  overflow: hidden; }
-  .image-desktop__bg {
-    display: none; }
-
-.image-desktop__bg--pattern {
-  margin: auto;
-  position: absolute;
-  margin: auto;
-  margin-top: -34.6875rem;
-  left: -35rem;
-  z-index: 1; }
-
-.image-desktop__bg--woman {
-  position: absolute;
-  margin: auto;
-  margin-top: -11.875rem;
-  left: -5rem;
-  z-index: 3; }
-
-@media (min-width: 375px) {
-  .image-desktop__bg {
-    display: initial; } }
-
-.image-mobile__bg {
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: -6.875rem; }
-
-.image-mobile__bg--pattern {
-  top: 0; }
-
-.image-mobile__bg--woman {
-  left: -1.625rem; }
-
-@media (min-width: 375px) {
-  .image-mobile {
-    display: none; } }
-: 375px) {
-  .card-main {
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 50rem;
-    margin-top: 0; } }
-
+/*--------COLORS--------*/
+/*The hsl() functional notation expresses a given color according to its hue, saturation, and lightness components.
+An optional alpha ("hsla()") component represents the color's transparency.
+Lightness as a third value in bracket means opacity.*/
+/*text*/
+/*very dark desaturated blue*/
+/*background gradients*/
+/*text*/
+/*Very dark grayish blue*/
+/*Dark grayish blue*/
+/*My color due to low answer content contrast accessibility*/
+/*dividers*/
+/*Light grayish blue*/
+/*other*/
+/*----------------------*/
+/*--------WIDTH---------*/
+/*----------------------*/
+/*------TYPOGRAPHY------*/
+/*FONT weights*/
+/*FONT family*/
+/*FONT sizes*/
+/*----------------------*/
 @keyframes rotateArrow {
   to {
     transform: rotate(180deg); } }
@@ -231,6 +192,23 @@ Lightness as a third value in bracket means opacity.*/
     @media (min-width: 375px) {
       .card__box {
         display: initial; } }
+
+.card-main {
+  background: #fff;
+  border-radius: 1.5rem;
+  margin: 0 auto;
+  width: 90%;
+  position: relative;
+  margin-top: 11rem; }
+
+@media (min-width: 375px) {
+  .card-main {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 50rem;
+    margin-top: 0; } }
 
 .image-desktop {
   overflow: hidden; }
