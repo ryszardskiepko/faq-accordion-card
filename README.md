@@ -49,6 +49,7 @@ Users should be able to:
 One of the most interesting coding challenges was to avoid the use of JavaScript. The only thing that was not obvious how to do this was creating an arrow that rotates 180 degrees when you click on a line that contains both an arrow and a question, which should display the answer text. Clicking again in this area was to hide the answer.
 
 The code snippet below presents a solution to the above problem:
+
 ```css
 @keyframes rotateArrow {
   to {
@@ -90,10 +91,10 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Useful resources
 
-- [Example resource 1](<https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl()>) - This article shows some basics about 'hsl()' function.
-- [Example resource 2](https://www.quackit.com/css/color/values/css_hsl_function.cfm) - Here are more explanations about 'hsl()' function.
-- [Example resource 3](https://developer.mozilla.org/pl/docs/Web/HTML/Element/details) - This article helped me to use the 'details' and 'summary' tags, so I was able to prevent the use of Javascript to expand the response content when clicking on a question.
-- [Example resource 4](https://codepen.io/codeseries09/pen/poowRqK) - Here is another article showing the solution to the problem described in the point above.
+- ['hsl()' resource 1](<https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl()>) - This article shows some basics about 'hsl()' function.
+- ['hsl()' resource 2](https://www.quackit.com/css/color/values/css_hsl_function.cfm) - Here are more explanations about 'hsl()' function.
+- ['details' and 'summary' resource 1](https://developer.mozilla.org/pl/docs/Web/HTML/Element/details) - This article helped me to use the 'details' and 'summary' tags, so I was able to prevent the use of Javascript to expand the response content when clicking on a question.
+- ['details' and 'summary' resource 2](https://codepen.io/codeseries09/pen/poowRqK) - Here is another article showing the solution to the problem described in the point above.
 
 ## Author
 
