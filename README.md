@@ -46,17 +46,10 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+One of the most interesting coding challenges was to avoid the use of JavaScript. The only thing that was not obvious how to do this was creating an arrow that rotates 180 degrees when you click on a line that contains both an arrow and a question, which should display the answer text. Clicking again in this area was to hide the answer.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
+The code snippet below presents a solution to the above problem:
 ```css
-/*The snippet below helped me to avoid using JS to rotate arrow after clicking on it.*/
-
 @keyframes rotateArrow {
   to {
     transform: rotate(180deg);
