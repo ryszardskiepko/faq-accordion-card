@@ -98,3 +98,4 @@ details > summary {
 - Github - [@ryszardskiepko](https://github.com/ryszardskiepko)
 
 ## Acknowledgments
+Making this project was possible thanks to the knowledge from the ['WTF: Co ten frontend?'](https://cotenfrontend.pl/) course.
